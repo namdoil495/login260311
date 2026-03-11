@@ -1,0 +1,6 @@
+.env
+
+node_modules
+__pycache__
+
+client_secret_376501551600-76kuv9t3o30efi578vhdc3stjk9e86kt.apps.googleusercontent.com.json

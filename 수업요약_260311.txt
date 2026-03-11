@@ -1,0 +1,41 @@
+구글 간편 로그인기능 만들기 
+
+```bash
+
+npx create-react-app 프로젝트명
+npx create-react-app frontend
+
+cd frontend
+
+npm i @react-oauth/google
+npm i jwt-decode
+npm install react-router-dom
+
+https://console.cloud.google.com/apis/dashboard?inv=1&invt=AbyvAA&project=gen-lang-client-0332189383
+구글 인증키 받기
+
+https://devway.tistory.com/71 
+여기 사이트 대로 함
+
+클라이언트 ID
+
+클라이언트 보안 비밀번호
+
+라우트.js에서
+import { GoogleOAuthProvider } from "@react-oauth/google";
+
+구글로그인은 했고
+네이버로그인은 찾아서 하면 됨.
+
+백엔드로 넘기는 거 진행함.
+
+git add . 
+
+
+git commit -m "260311 oauth 실습" 
+
+
+git push 
+
+
+
